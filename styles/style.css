@@ -1220,7 +1220,7 @@ ul {
   max-height: 0;
   overflow: hidden;
   visibility: hidden;
-  padding: 0 3rem;
+  padding: 0 2.5rem;
   transition: all 0.3s ease;
 }
 
