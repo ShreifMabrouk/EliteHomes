@@ -14,6 +14,17 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+ .help-center article .content {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  padding: 0 2.5rem;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+}
+
 @media screen and (max-width: 991px) {
   .navbar-nav .nav-link.active {
     color: var(--secondary-color);
